@@ -1,0 +1,22 @@
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In constructor ‘[01m[KESP32Interface::ESP32Interface(int, char**, rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface([01;35m[Kint argc[m[K, char **argv, rclcpp::NodeOptions &options)
+      |                                [01;35m[K~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface(int argc, [01;35m[Kchar **argv[m[K, rclcpp::NodeOptions &options)
+      |                                          [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K At global scope:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:134:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KreadDataPublisherThread[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  134 | [01;31m[KESP32Interface[m[K::readDataPublisherThread(){
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:134:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint ESP32Interface::readDataPublisherThread()[m[K’
+In file included from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:22:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ESP32Interface::readDataPublisherThread()[m[K’
+   22 |     void [01;36m[KreadDataPublisherThread[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ESP32Interface[m[K’ defined here
+    8 | class [01;36m[KESP32Interface[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/esp32_interface_node.dir/build.make:76: CMakeFiles/esp32_interface_node.dir/src/esp32.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_interface_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/santhosh/Desktop/ros2_ws/pendulum_control/build/esp32_interface': AMENT_PREFIX_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/santhosh/Desktop/ros2_ws/pendulum_control/build/esp32_interface -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target esp32_interface_node[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/esp32_interface_node.dir/src/esp32.cpp.o[0m
+[0.102s] [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kesp32.hpp: No such file or directory
+[0.102s]     1 | #include [01;31m[K"esp32.hpp"[m[K
+[0.103s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.103s] compilation terminated.
+[0.103s] gmake[2]: *** [CMakeFiles/esp32_interface_node.dir/build.make:76: CMakeFiles/esp32_interface_node.dir/src/esp32.cpp.o] Error 1
+[0.104s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_interface_node.dir/all] Error 2
+[0.104s] gmake: *** [Makefile:146: all] Error 2
+[0.109s] Invoked command in '/home/santhosh/Desktop/ros2_ws/pendulum_control/build/esp32_interface' returned '2': AMENT_PREFIX_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/santhosh/Desktop/ros2_ws/pendulum_control/build/esp32_interface -- -j16 -l16

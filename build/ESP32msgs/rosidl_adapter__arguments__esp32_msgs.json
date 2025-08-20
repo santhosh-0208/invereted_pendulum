@@ -1,0 +1,6 @@
+{
+  "package_name": "esp32_msgs",
+  "non_idl_tuples": [
+    "/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_msgs:msgs/ImuData.msg"
+  ]
+}

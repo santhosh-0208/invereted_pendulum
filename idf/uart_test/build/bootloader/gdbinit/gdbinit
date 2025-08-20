@@ -1,0 +1,2 @@
+source /home/santhosh/Desktop/ros2_ws/pendulum_control/idf/uart_test/build/bootloader/gdbinit/symbols
+source /home/santhosh/Desktop/ros2_ws/pendulum_control/idf/uart_test/build/bootloader/gdbinit/connect

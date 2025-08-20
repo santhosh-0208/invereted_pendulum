@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target esp32_interface_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/esp32_interface_node.dir/src/esp32.cpp.o[0m
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In constructor ‘[01m[KESP32Interface::ESP32Interface(int, char**, rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface([01;35m[Kint argc[m[K, char **argv, rclcpp::NodeOptions &options)
+      |                                [01;35m[K~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface(int argc, [01;35m[Kchar **argv[m[K, rclcpp::NodeOptions &options)
+      |                                          [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In member function ‘[01m[Kvoid ESP32Interface::read_register(uint8_t, int, int16_t&)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:95:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KSTART_BYTE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   95 |     const uint8_t [01;35m[KSTART_BYTE[m[K = 0x77;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:96:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KEND_BYTE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   96 |     const uint8_t [01;35m[KEND_BYTE[m[K = 0xAA;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:97:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPACKET_SIZE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   97 |     const size_t [01;35m[KPACKET_SIZE[m[K = 6; // start + addr + low + high + checksum + end
+      |                  [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:92:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 | void ESP32Interface::read_register(uint8_t addr, [01;35m[Kint timeout_ms[m[K, int16_t &value)
+      |                                                  [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:92:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 | void ESP32Interface::read_register(uint8_t addr, int timeout_ms, [01;35m[Kint16_t &value[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~^~~~~[m[K
+[100%] [32m[1mLinking CXX executable esp32_interface_node[0m
+[100%] Built target esp32_interface_node
+-- Install configuration: ""
+-- Installing: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/lib/esp32_interface/esp32_interface_node
+-- Set runtime path of "/home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/lib/esp32_interface/esp32_interface_node" to ""
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/ament_index/resource_index/package_run_dependencies/esp32_interface
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/ament_index/resource_index/parent_prefix_path/esp32_interface
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/environment/path.sh
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/environment/path.dsv
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/local_setup.bash
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/local_setup.sh
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/local_setup.zsh
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/local_setup.dsv
+-- Installing: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/package.dsv
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/ament_index/resource_index/packages/esp32_interface
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/cmake/esp32_interfaceConfig.cmake
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/cmake/esp32_interfaceConfig-version.cmake
+-- Up-to-date: /home/santhosh/Desktop/ros2_ws/pendulum_control/install/esp32_interface/share/esp32_interface/package.xml

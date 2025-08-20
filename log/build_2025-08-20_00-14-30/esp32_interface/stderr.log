@@ -1,0 +1,178 @@
+In file included from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:29:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   29 |     void check_size(uint8_t addr, size_t actual_size[01;31m[K)[m[K
+      |                                                     [01;31m[K^[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:43:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   43 |     rclcpp::Service<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate>::SharedPtr caliberation_service_;
+      |                                 [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:43:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |     rclcpp::Service<esp32_msgs::srv::Calibrate[01;31m[K>[m[K::SharedPtr caliberation_service_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:43:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   43 |     rclcpp::Service<esp32_msgs::srv::Calibrate>::[01;31m[KSharedPtr[m[K caliberation_service_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:43:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcaliberation_service_[m[K’ does not name a type
+   43 |     rclcpp::Service<esp32_msgs::srv::Calibrate>::SharedPtr [01;31m[Kcaliberation_service_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:52:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kpending_read_requests[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   52 |     int8_t [01;35m[Kpending_read_requests[m[K[];
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:52:12:[m[K [01;31m[Kerror: [m[Kflexible array member ‘[01m[KESP32Interface::pending_read_requests[m[K’ not at end of ‘[01m[Kclass ESP32Interface[m[K’
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In constructor ‘[01m[KESP32Interface::ESP32Interface(int, char**, rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcaliberation_service_[m[K’ was not declared in this scope
+   25 |     [01;31m[Kcaliberation_service_[m[K = this->create_service<esp32_msgs::srv::Calibrate>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:25:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   25 |     caliberation_service_ = this->create_service<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate>(
+      |                                                              [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:25:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   25 |     caliberation_service_ = this->[01;31m[Kcreate_service<esp32_msgs::srv::Calibrate>[m[K(
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:26:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibrate[m[K’ is not a member of ‘[01m[KESP32Interface[m[K’
+   26 |         "calibrate", std::bind(&ESP32Interface::[01;31m[Kcalibrate[m[K, this, std::placeholders::_1, std::placeholders::_2));
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:38:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kread_register[m[K’
+   38 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+   39 |     // read imu full scale
+   40 |     [32m[Kread_register[m[K(0x1C);
+      |     [32m[K~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface([01;35m[Kint argc[m[K, char **argv, rclcpp::NodeOptions &options)
+      |                                [01;35m[K~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:3:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ESP32Interface::ESP32Interface(int argc, [01;35m[Kchar **argv[m[K, rclcpp::NodeOptions &options)
+      |                                          [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K At global scope:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate::Request> request,
+      |                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::srv::Calibrate::Request[01;31m[K>[m[K request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate::Request> request,
+      |                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::srv::Calibrate::Request[01;31m[K>[m[K request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate::Request> request,
+      |                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::srv::Calibrate::Request[01;31m[K>[m[K request,
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:38:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   50 | void ESP32Interface::calibrate(const [01;31m[Kstd[m[K::shared_ptr<esp32_msgs::srv::Calibrate::Request> request,
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   50 | void ESP32Interface::calibrate(const std::shared_ptr<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate::Request> request,
+      |                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kcalibrate[m[K’ declared void
+   50 | void [01;31m[KESP32Interface[m[K::calibrate(const std::shared_ptr<esp32_msgs::srv::Calibrate::Request> request,
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:50:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   50 | void ESP32Interface::calibrate([01;31m[Kconst[m[K std::shared_ptr<esp32_msgs::srv::Calibrate::Request> request,
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:51:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kesp32_msgs[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   51 |                                std::shared_ptr<esp32_msgs::[01;31m[Ksrv[m[K::Calibrate::Response> response)
+      |                                                            [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:3[m[K,
+                 from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:51:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |                                std::shared_ptr<esp32_msgs::srv::Calibrate::Response[01;31m[K>[m[K response)
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In member function ‘[01m[Kvoid ESP32Interface::readerThread(boost::asio::serial_port&)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:98:21:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_packet[m[K’ was not declared in this scope
+   98 |                     [01;31m[Khandle_packet[m[K(packet);
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K At global scope:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:106:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool ESP32Interface::check_size(uint8_t, size_t)[m[K’
+  106 | bool [01;31m[KESP32Interface[m[K::check_size(uint8_t addr, size_t actual_size)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:29:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ESP32Interface::check_size(uint8_t, size_t)[m[K’
+   29 |     void [01;36m[Kcheck_size[m[K(uint8_t addr, size_t actual_size)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ESP32Interface[m[K’ defined here
+   12 | class [01;36m[KESP32Interface[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:123:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ESP32Interface::handle_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+  123 | void [01;31m[KESP32Interface[m[K::handle_packet(const std::vector<uint8_t> &packet)
+      |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:123:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ESP32Interface::handle_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+In file included from [01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:1[m[K:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/include/esp32_interface/esp32.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ESP32Interface[m[K’ defined here
+   12 | class [01;36m[KESP32Interface[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:[m[K In member function ‘[01m[Kvoid ESP32Interface::read_register(uint8_t)[m[K’:
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:171:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KSTART_BYTE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  171 |     const uint8_t [01;35m[KSTART_BYTE[m[K = 0x77;
+      |                   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:172:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KEND_BYTE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  172 |     const uint8_t [01;35m[KEND_BYTE[m[K = 0xAA;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_interface/src/esp32.cpp:173:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPACKET_SIZE[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  173 |     const size_t [01;35m[KPACKET_SIZE[m[K = 6; // start + addr + low + high + checksum + end
+      |                  [01;35m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/esp32_interface_node.dir/build.make:76: CMakeFiles/esp32_interface_node.dir/src/esp32.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_interface_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
