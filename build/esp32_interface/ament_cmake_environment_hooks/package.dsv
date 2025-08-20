@@ -1,4 +1,0 @@
-source;share/esp32_interface/local_setup.bash
-source;share/esp32_interface/local_setup.dsv
-source;share/esp32_interface/local_setup.sh
-source;share/esp32_interface/local_setup.zsh

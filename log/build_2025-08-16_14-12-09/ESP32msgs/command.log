@@ -1,1 +1,0 @@
-Invoking command in '/home/santhosh/Desktop/ros2_ws/pendulum_control/build/ESP32msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/santhosh/Desktop/ros2_ws/pendulum_control/src/esp32_msgs -DCMAKE_INSTALL_PREFIX=/home/santhosh/Desktop/ros2_ws/pendulum_control/install/ESP32msgs
